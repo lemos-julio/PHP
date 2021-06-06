@@ -11,33 +11,35 @@
 <body>
     <header>
         <div class="center">    
-            <div class="left"> logo</logo>
+            <div class="left">
+                 <img src="img/vizir.jpg"  width=70px height=70px>
+            </logo>
             <nav class ="desktop"> </nav>
         </div>
     </header>
     <div class="clear"></div>
 
    
-        <div class="form">
-         <p> Bem Vindo a TelVizir! </p>
-         <br>
-         <br>
-         <P>A TelVizir está com uma nova modalidade de planos, prencha os campos abaixo e verifique se algum desses novos planos se aplicam a sua necessidade.</p>
-        
+        <div class="txt">
+                <h3> Bem Vindo a TelVizir! </h3>
+                <br>
+                <br>
+                <P>A TelVizir está com uma nova modalidade de planos, prencha os campos abaixo e verifique se algum desses novos planos se aplicam a sua necessidade.</p>
+        </div>          
          <div class = "form">    
                 <form   method = "POST">
                         <br>
-                        <input  require type="radio" name="OD" value="011-017"> 011-016
+                        <input  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 016
                         <br>
-                        <input  require type="radio" name="OD" value="016-011"> 016-011
+                        <input  require type="radio" name="OD" value="016-011"> Origem: 016  -   Destino: 011
                         <br>
-                        <input  require type="radio" name="OD" value="011-017"> 011-017
+                        <input  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 017
                         <br>
-                        <input  require type="radio" name="OD" value="017-011"> 017-011
+                        <input  require type="radio" name="OD" value="017-011"> Origem: 017  -   Destino: 011
                         <br>
-                        <input  require type="radio" name="OD" value="011-018"> 011-018
+                        <input  require type="radio" name="OD" value="011-018"> Origem: 011  -   Destino: 018
                         <br>
-                        <input  require type="radio" name="OD" value="018-011"> 018-011
+                        <input  require type="radio" name="OD" value="018-011"> Origem: 018  -   Destino: 011
 
                         <br>
                         <br>
@@ -48,10 +50,10 @@
                         <input  require type="radio" name="FM" value="120"> Fale Mais 120 min <br>
 
                         <br>
-
                         <label>Deseja Selecionar mais minutos?</label>
                         <br>
                         <input require type="number" name="min">
+                        <br>
                         <br>
 
 
@@ -150,7 +152,7 @@
                 }
                 ?>
 
-                <div class = 'form' >
+                <div>
                         <p class = 'p1'>  O plano escolhido foi: <strong> Fale mais  <?php echo $fm; ?> Minutos </strong> </p>
                         <br>
                         <p class ='p1 '> Valor: R$ <?php echo $s; ?>  </p>
@@ -158,7 +160,7 @@
                 
                 <br>
 
-                <div class = 'form'>
+                <div>
                         <p class = 'p1'> Valor sem plano</p>
                         <br>
                         <p class = 'p1' >  Valor: R$  <?php echo $s1; ?> </p>
@@ -167,7 +169,7 @@
 
         </div>   
     </div>           
-            
+                
           
           
           
@@ -187,8 +189,6 @@
 
 
 
-
-
-
+ <footer> Desenvolvido Por Julio Lemos</footer>
 </body>
 </html>
