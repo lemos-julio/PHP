@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-position: center;
+}
+
+h3{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+/*TAGS*/
+
+header{
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#FA3C5A;
+    font-family: sans-serif;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+
+/*Classes*/
+
+.center{
+    margin: auto;
+    width: 50%;
+    background-position: center;
+}
+
+.form{
+    
+    background-color: #BAF1E4;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding-left: 10px;
+      
+}
+
+
+.txt{
+    width: 50%;
+    height: 100%;
+    background-color: #49ddc4;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 2%;
+    padding: 10px;
+    padding-bottom: 2%;
+
+}
+
+
+
+.p1{
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="script.css" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        Titulo    
+    </head>
+    <article>
+        <form method="POST"   >
+                
+            <br>
+            <input type="radio" name="OD" value="011-017"> 011-016
+            <br>
+            <input type="radio" name="OD" value="016-011"> 016-011
+            <br>
+            <input type="radio" name="OD" value="011-017"> 011-017
+            <br>
+            <input type="radio" name="OD" value="017-011"> 017-011
+            <br>
+            <input type="radio" name="OD" value="011-018"> 011-018
+            <br>
+            <input type="radio" name="OD" value="018-011"> 018-011
+
+            <br>
+            <br>
+            
+            <input type="radio" name="FM" value="30"> Fale mais 30 min
+            <input type="radio" name="FM" value="60"> Fale Mais 60 min
+            <input type="radio" name="FM" value="120"> Fale Mais 120 min
+
+            <br>
+
+            <label>Deseja Selecionar mais minutos?</label>
+            <input type="number" name="OT">
+
+
+         <input onclick="calcular()" type="submit" name="acao" value="Enviar">
+        </form>
+
+
+
+    </article>
+   
+</body>
+</html>
+
+
