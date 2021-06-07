@@ -26,24 +26,27 @@
                 <br>
                 <P>A TelVizir está com uma nova modalidade de planos, prencha os campos abaixo e verifique se algum desses novos planos se aplicam a sua necessidade.</p>
         </div>          
-         <div class = "form">    
+         <div class = "form">
+                <h4> Selecione Sua Origem e Destino de Ligação</h4>    
                 <form   method = "POST">
+                        <select name='OD' >       
                         <br>
-                        <input  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 016
-                        <br>
-                        <input  require type="radio" name="OD" value="016-011"> Origem: 016  -   Destino: 011
-                        <br>
-                        <input  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 017
-                        <br>
-                        <input  require type="radio" name="OD" value="017-011"> Origem: 017  -   Destino: 011
-                        <br>
-                        <input  require type="radio" name="OD" value="011-018"> Origem: 011  -   Destino: 018
-                        <br>
-                        <input  require type="radio" name="OD" value="018-011"> Origem: 018  -   Destino: 011
+                                <option  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 016 </option>
+                                <br>
+                                <option  require type="radio" name="OD" value="016-011"> Origem: 016  -   Destino: 011 </option>
+                                <br>
+                                <option  require type="radio" name="OD" value="011-017"> Origem: 011  -   Destino: 017 </option>
+                                <br>
+                                <option  require type="radio" name="OD" value="017-011"> Origem: 017  -   Destino: 011 </option>
+                                <br>
+                                <option  require type="radio" name="OD" value="011-018"> Origem: 011  -   Destino: 018 </option>
+                                <br>
+                                <option  require type="radio" name="OD" value="018-011"> Origem: 018  -   Destino: 011 </option>
+                        </select>
 
                         <br>
                         <br>
-                        
+                        <h4>Escolha Seu Plano</h4>
                         <input  require type="radio" name="FM" value="30"> Fale mais 30 min <br>
 
                         <input  require type="radio" name="FM" value="60"> Fale Mais 60 min <br>
@@ -170,25 +173,6 @@
         </div>   
     </div>           
                 
-          
-          
-          
-          
-          
-          
-          
-          
-                
-           
-        
-
-    
-
-       
-
-
-
-
- <footer> Desenvolvido Por Julio Lemos</footer>
 </body>
+<footer> Desenvolvido Por Julio Lemos</footer>
 </html>

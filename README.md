@@ -12,4 +12,4 @@ Para rodar o Site do Teste da Vizir é necessário instalar o PHP em seu computa
     https://www.fastsitephp.com/pt-BR/documents/install-php-on-mac
 
 
-Após instalar o PHP em seu computador, cole o diretório VIZIR dentro da pasta que será interpretada pelo navegador.
+Após instalar o PHP em seu computador, cole os arquivos diretório VIZIR dentro da pasta que será interpretada pelo navegador.
